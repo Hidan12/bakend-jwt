@@ -20,7 +20,7 @@ router.get("/all", passport.authenticate('jwt',{session:false}), allUser)
 router.get("/idAllUser", idAllUsers)
 
 //update
-router.put("/update", passport.authenticate('jwt',{session:false}), validator(schemaUpdate), updateUser)
+router.put("/update", validator(schemaUpdate), passport.authenticate('jwt',{session:false}), updateUser)
 
 //delete
 router.delete("/delete", passport.authenticate('jwt',{session:false}), deleteUser)

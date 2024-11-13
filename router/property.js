@@ -11,13 +11,13 @@ import passport from "../middleware/passport.js"
 const router = Router()
 
 //create
-router.post("/create", passport.authenticate('jwt',{session:false}), validator(schemaCreate), createProperty)
+router.post("/create", validator(schemaCreate), passport.authenticate('jwt',{session:false}), createProperty)
 
 //read
 router.get("/all", allProperties)
 
 //update
-router.put("/update", passport.authenticate('jwt',{session:false}), validator(schemaUpdate), updateProperty)
+router.put("/update", validator(schemaUpdate), passport.authenticate('jwt',{session:false}), updateProperty)
 
 //delete
 router.delete("/delete", passport.authenticate('jwt',{session:false}), deleteProperty)
