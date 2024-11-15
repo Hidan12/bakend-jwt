@@ -9,11 +9,12 @@ import existingUser from "../middleware/existingUser.js"
 import { deleteUser } from "../controller/user/delete.js"
 import passport from "../middleware/passport.js"
 import passwordEncryption from "../middleware/passwordEncryption.js"
+import generateToken from "../middleware/generateToken.js"
 
 const router = Router()
 
 //create
-router.post("/create", validator(schemaCreate), existingUser, passwordEncryption, createUser)
+router.post("/create", validator(schemaCreate), existingUser, passwordEncryption, generateToken, createUser)
 
 //read
 router.get("/all", passport.authenticate('jwt',{session:false}), allUser)

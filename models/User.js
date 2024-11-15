@@ -5,7 +5,7 @@ const collection = "Users"
 const schema = new Schema({
     name: {type: String, required: true},
     mail: {type: String, required: true},
-    typeUser: {type: Number, required: true},
+    typeUser: {type: Number, default:1},
     address: {type: String, required: true},
     phone: {type: Number, required: true},
     password: {type: String, required: true},

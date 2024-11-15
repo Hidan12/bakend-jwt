@@ -15,14 +15,14 @@ const finances = [
     date: new Date('2024-01-05'),
     description: "Compra de supermercado",
     value: -150,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351803"
   },
   {
     date: new Date('2024-01-10'),
     description: "Pago de renta",
     value: -800,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351803"
   },
   {
@@ -36,14 +36,14 @@ const finances = [
     date: new Date('2024-01-20'),
     description: "Compra de ropa",
     value: -200,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351803"
   },
   {
     date: new Date('2024-01-25'),
     description: "Pago de servicios",
     value: -100,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351803"
   },
   {
@@ -57,7 +57,7 @@ const finances = [
     date: new Date('2024-02-01'),
     description: "Compra de regalos",
     value: -300,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351803"
   },
   {
@@ -71,7 +71,7 @@ const finances = [
     date: new Date('2024-02-10'),
     description: "Cena en restaurante",
     value: -100,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351803"
   },
   {
@@ -85,7 +85,7 @@ const finances = [
     date: new Date('2024-02-20'),
     description: "Pago de gimnasio",
     value: -50,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351803"
   },
   {
@@ -99,7 +99,7 @@ const finances = [
     date: new Date('2024-03-01'),
     description: "Compra de libros",
     value: -70,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351803"
   },
   {
@@ -113,7 +113,7 @@ const finances = [
     date: new Date('2024-03-10'),
     description: "Pago de gasolina",
     value: -60,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351803"
   },
   {
@@ -127,7 +127,7 @@ const finances = [
     date: new Date('2024-03-20'),
     description: "Pago de seguro",
     value: -100,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351803"
   },
   {
@@ -141,7 +141,7 @@ const finances = [
     date: new Date('2024-03-30'),
     description: "Compra de equipo deportivo",
     value: -250,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351803"
   },
   //6732c868ec77ef6364351804
@@ -156,14 +156,14 @@ const finances = [
     date: new Date('2024-04-05'),
     description: "Compra de supermercado",
     value: -160,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351804"
   },
   {
     date: new Date('2024-04-10'),
     description: "Pago de renta",
     value: -850,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351804"
   },
   {
@@ -177,14 +177,14 @@ const finances = [
     date: new Date('2024-04-20'),
     description: "Compra de ropa",
     value: -220,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351804"
   },
   {
     date: new Date('2024-04-25'),
     description: "Pago de servicios",
     value: -120,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351804"
   },
   {
@@ -198,7 +198,7 @@ const finances = [
     date: new Date('2024-05-01'),
     description: "Compra de regalos",
     value: -280,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351804"
   },
   {
@@ -212,7 +212,7 @@ const finances = [
     date: new Date('2024-05-10'),
     description: "Cena en restaurante",
     value: -110,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351804"
   },
   {
@@ -226,7 +226,7 @@ const finances = [
     date: new Date('2024-05-20'),
     description: "Pago de gimnasio",
     value: -55,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351804"
   },
   {
@@ -240,7 +240,7 @@ const finances = [
     date: new Date('2024-06-01'),
     description: "Compra de libros",
     value: -75,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351804"
   },
   {
@@ -254,7 +254,7 @@ const finances = [
     date: new Date('2024-06-10'),
     description: "Pago de gasolina",
     value: -65,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351804"
   },
   {
@@ -268,7 +268,7 @@ const finances = [
     date: new Date('2024-06-20'),
     description: "Pago de seguro",
     value: -110,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351804"
   },
   {
@@ -282,7 +282,7 @@ const finances = [
     date: new Date('2024-06-30'),
     description: "Compra de equipo deportivo",
     value: -260,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351804"
   },
   //6732c868ec77ef6364351805
@@ -297,14 +297,14 @@ const finances = [
     date: new Date('2024-07-05'),
     description: "Compra de supermercado",
     value: -170,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351805"
   },
   {
     date: new Date('2024-07-10'),
     description: "Pago de renta",
     value: -900,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351805"
   },
   {
@@ -318,14 +318,14 @@ const finances = [
     date: new Date('2024-07-20'),
     description: "Compra de ropa",
     value: -240,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351805"
   },
   {
     date: new Date('2024-07-25'),
     description: "Pago de servicios",
     value: -130,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351805"
   },
   {
@@ -339,7 +339,7 @@ const finances = [
     date: new Date('2024-08-01'),
     description: "Compra de regalos",
     value: -310,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351805"
   },
   {
@@ -353,7 +353,7 @@ const finances = [
     date: new Date('2024-08-10'),
     description: "Cena en restaurante",
     value: -90,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351805"
   },
   {
@@ -367,7 +367,7 @@ const finances = [
     date: new Date('2024-08-20'),
     description: "Pago de gimnasio",
     value: -60,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351805"
   },
   {
@@ -381,7 +381,7 @@ const finances = [
     date: new Date('2024-09-01'),
     description: "Compra de libros",
     value: -80,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351805"
   },
   {
@@ -395,7 +395,7 @@ const finances = [
     date: new Date('2024-09-10'),
     description: "Pago de gasolina",
     value: -70,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351805"
   },
   {
@@ -409,7 +409,7 @@ const finances = [
     date: new Date('2024-09-20'),
     description: "Pago de seguro",
     value: -115,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351805"
   },
   {
@@ -423,7 +423,7 @@ const finances = [
     date: new Date('2024-09-30'),
     description: "Compra de equipo deportivo",
     value: -230,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351805"
   },
   //6732c868ec77ef6364351806
@@ -438,14 +438,14 @@ const finances = [
     date: new Date('2024-10-03'),
     description: "Compra de tecnología",
     value: -400,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351806"
   },
   {
     date: new Date('2024-10-07'),
     description: "Pago de hipoteca",
     value: -1200,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351806"
   },
   {
@@ -459,14 +459,14 @@ const finances = [
     date: new Date('2024-10-15'),
     description: "Compra de mobiliario",
     value: -350,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351806"
   },
   {
     date: new Date('2024-10-18'),
     description: "Pago de facturas",
     value: -150,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351806"
   },
   {
@@ -480,7 +480,7 @@ const finances = [
     date: new Date('2024-10-25'),
     description: "Compra de herramientas",
     value: -290,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351806"
   },
   {
@@ -494,7 +494,7 @@ const finances = [
     date: new Date('2024-11-01'),
     description: "Pago de transporte",
     value: -80,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351806"
   },
   {
@@ -508,7 +508,7 @@ const finances = [
     date: new Date('2024-11-08'),
     description: "Pago de servicios públicos",
     value: -110,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351806"
   },
   {
@@ -522,14 +522,14 @@ const finances = [
     date: new Date('2024-11-15'),
     description: "Compra de materiales de oficina",
     value: -75,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351806"
   },
   {
     date: new Date('2024-11-18'),
     description: "Pago de seguro médico",
     value: -200,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351806"
   },
   {
@@ -543,7 +543,7 @@ const finances = [
     date: new Date('2024-11-24'),
     description: "Compra de libros profesionales",
     value: -130,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351806"
   },
   {
@@ -557,7 +557,7 @@ const finances = [
     date: new Date('2024-11-30'),
     description: "Pago de mantenimiento de vehículo",
     value: -210,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351806"
   },
   {
@@ -579,14 +579,14 @@ const finances = [
     date: new Date('2024-10-04'),
     description: "Compra de dispositivos electrónicos",
     value: -370,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351807"
   },
   {
     date: new Date('2024-10-08'),
     description: "Pago de préstamo personal",
     value: -1300,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351807"
   },
   {
@@ -600,14 +600,14 @@ const finances = [
     date: new Date('2024-10-16'),
     description: "Compra de muebles de oficina",
     value: -320,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351807"
   },
   {
     date: new Date('2024-10-19'),
     description: "Pago de servicios básicos",
     value: -160,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351807"
   },
   {
@@ -621,7 +621,7 @@ const finances = [
     date: new Date('2024-10-26'),
     description: "Compra de accesorios para computadora",
     value: -280,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351807"
   },
   {
@@ -635,7 +635,7 @@ const finances = [
     date: new Date('2024-11-02'),
     description: "Pago de transporte público",
     value: -70,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351807"
   },
   {
@@ -649,7 +649,7 @@ const finances = [
     date: new Date('2024-11-09'),
     description: "Pago de electricidad",
     value: -100,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351807"
   },
   {
@@ -663,14 +663,14 @@ const finances = [
     date: new Date('2024-11-16'),
     description: "Compra de suministros de oficina",
     value: -85,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351807"
   },
   {
     date: new Date('2024-11-19'),
     description: "Pago de seguro de vida",
     value: -210,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351807"
   },
   {
@@ -684,7 +684,7 @@ const finances = [
     date: new Date('2024-11-25'),
     description: "Compra de libros técnicos",
     value: -120,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351807"
   },
   {
@@ -698,7 +698,7 @@ const finances = [
     date: new Date('2024-11-30'),
     description: "Pago de reparación de auto",
     value: -190,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351807"
   },
   {
@@ -720,14 +720,14 @@ const finances = [
     date: new Date('2024-10-04'),
     description: "Compra de libros de referencia",
     value: -250,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351808"
   },
   {
     date: new Date('2024-10-08'),
     description: "Pago de seguro de salud",
     value: -800,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351808"
   },
   {
@@ -741,14 +741,14 @@ const finances = [
     date: new Date('2024-10-16'),
     description: "Compra de software de traducción",
     value: -400,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351808"
   },
   {
     date: new Date('2024-10-19'),
     description: "Pago de servicios públicos",
     value: -150,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351808"
   },
   {
@@ -762,7 +762,7 @@ const finances = [
     date: new Date('2024-10-26'),
     description: "Compra de hardware de oficina",
     value: -380,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351808"
   },
   {
@@ -776,7 +776,7 @@ const finances = [
     date: new Date('2024-11-02'),
     description: "Pago de transporte público",
     value: -100,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351808"
   },
   {
@@ -790,7 +790,7 @@ const finances = [
     date: new Date('2024-11-09'),
     description: "Pago de electricidad",
     value: -120,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351808"
   },
   {
@@ -804,14 +804,14 @@ const finances = [
     date: new Date('2024-11-16'),
     description: "Compra de papelería",
     value: -90,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351808"
   },
   {
     date: new Date('2024-11-19'),
     description: "Pago de seguro de vida",
     value: -300,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351808"
   },
   {
@@ -825,7 +825,7 @@ const finances = [
     date: new Date('2024-11-25'),
     description: "Compra de equipo de oficina",
     value: -150,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351808"
   },
   {
@@ -839,7 +839,7 @@ const finances = [
     date: new Date('2024-11-30'),
     description: "Pago de reparación de vehículo",
     value: -250,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351808"
   },
   {
@@ -861,14 +861,14 @@ const finances = [
     date: new Date('2024-10-04'),
     description: "Compra de materiales educativos",
     value: -200,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351809"
   },
   {
     date: new Date('2024-10-08'),
     description: "Pago de suscripción a software educativo",
     value: -150,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351809"
   },
   {
@@ -882,14 +882,14 @@ const finances = [
     date: new Date('2024-10-16'),
     description: "Compra de libros de texto",
     value: -320,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351809"
   },
   {
     date: new Date('2024-10-19'),
     description: "Pago de servicios públicos",
     value: -130,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351809"
   },
   {
@@ -903,7 +903,7 @@ const finances = [
     date: new Date('2024-10-26'),
     description: "Compra de equipo de laboratorio",
     value: -400,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351809"
   },
   {
@@ -917,7 +917,7 @@ const finances = [
     date: new Date('2024-11-02'),
     description: "Pago de transporte escolar",
     value: -90,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351809"
   },
   {
@@ -931,7 +931,7 @@ const finances = [
     date: new Date('2024-11-09'),
     description: "Pago de electricidad",
     value: -140,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351809"
   },
   {
@@ -945,14 +945,14 @@ const finances = [
     date: new Date('2024-11-16'),
     description: "Compra de software de análisis de datos",
     value: -350,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351809"
   },
   {
     date: new Date('2024-11-19'),
     description: "Pago de seguro médico",
     value: -270,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351809"
   },
   {
@@ -966,7 +966,7 @@ const finances = [
     date: new Date('2024-11-25'),
     description: "Compra de equipos de computación",
     value: -430,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351809"
   },
   {
@@ -980,7 +980,7 @@ const finances = [
     date: new Date('2024-11-30'),
     description: "Pago de reparación de vehículo",
     value: -260,
-    active: true,
+    active: false,
     user: "6732c868ec77ef6364351809"
   },
   {
@@ -1002,14 +1002,14 @@ const finances = [
     date: new Date('2024-10-04'),
     description: "Compra de partituras",
     value: -200,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180a"
   },
   {
     date: new Date('2024-10-08'),
     description: "Pago de suscripción a plataforma de música",
     value: -120,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180a"
   },
   {
@@ -1023,14 +1023,14 @@ const finances = [
     date: new Date('2024-10-16'),
     description: "Compra de equipo de audio",
     value: -400,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180a"
   },
   {
     date: new Date('2024-10-19'),
     description: "Pago de servicios públicos",
     value: -150,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180a"
   },
   {
@@ -1044,7 +1044,7 @@ const finances = [
     date: new Date('2024-10-26'),
     description: "Compra de micrófono profesional",
     value: -380,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180a"
   },
   {
@@ -1058,7 +1058,7 @@ const finances = [
     date: new Date('2024-11-02'),
     description: "Pago de transporte público",
     value: -100,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180a"
   },
   {
@@ -1072,7 +1072,7 @@ const finances = [
     date: new Date('2024-11-09'),
     description: "Pago de electricidad",
     value: -130,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180a"
   },
   {
@@ -1086,14 +1086,14 @@ const finances = [
     date: new Date('2024-11-16'),
     description: "Compra de cables y accesorios",
     value: -90,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180a"
   },
   {
     date: new Date('2024-11-19'),
     description: "Pago de seguro de vida",
     value: -300,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180a"
   },
   {
@@ -1107,7 +1107,7 @@ const finances = [
     date: new Date('2024-11-25'),
     description: "Compra de instrumentos musicales",
     value: -450,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180a"
   },
   {
@@ -1121,7 +1121,7 @@ const finances = [
     date: new Date('2024-11-30'),
     description: "Pago de reparación de vehículo",
     value: -250,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180a"
   },
   {
@@ -1143,14 +1143,14 @@ const finances = [
     date: new Date('2024-10-04'),
     description: "Compra de equipo para diseño",
     value: -250,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180b"
   },
   {
     date: new Date('2024-10-08'),
     description: "Pago de suscripción a software de diseño",
     value: -150,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180b"
   },
   {
@@ -1164,14 +1164,14 @@ const finances = [
     date: new Date('2024-10-16'),
     description: "Compra de libros de diseño gráfico",
     value: -180,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180b"
   },
   {
     date: new Date('2024-10-19'),
     description: "Pago de servicios de internet",
     value: -120,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180b"
   },
   {
@@ -1185,7 +1185,7 @@ const finances = [
     date: new Date('2024-10-26'),
     description: "Compra de cámara fotográfica",
     value: -450,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180b"
   },
   {
@@ -1199,7 +1199,7 @@ const finances = [
     date: new Date('2024-11-02'),
     description: "Pago de transporte para sesión fotográfica",
     value: -80,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180b"
   },
   {
@@ -1213,7 +1213,7 @@ const finances = [
     date: new Date('2024-11-09'),
     description: "Pago de electricidad",
     value: -100,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180b"
   },
   {
@@ -1227,14 +1227,14 @@ const finances = [
     date: new Date('2024-11-16'),
     description: "Compra de software de edición gráfica",
     value: -300,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180b"
   },
   {
     date: new Date('2024-11-19'),
     description: "Pago de suscripción a servicio de almacenamiento en la nube",
     value: -200,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180b"
   },
   {
@@ -1248,7 +1248,7 @@ const finances = [
     date: new Date('2024-11-25'),
     description: "Compra de materiales para sesiones fotográficas",
     value: -350,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180b"
   },
   {
@@ -1262,7 +1262,7 @@ const finances = [
     date: new Date('2024-11-30'),
     description: "Pago de reparación de computadora",
     value: -250,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180b"
   },
   {
@@ -1284,14 +1284,14 @@ const finances = [
     date: new Date('2024-10-04'),
     description: "Compra de libros de economía",
     value: -200,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180c"
   },
   {
     date: new Date('2024-10-08'),
     description: "Pago de suscripción a plataforma de análisis",
     value: -150,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180c"
   },
   {
@@ -1305,14 +1305,14 @@ const finances = [
     date: new Date('2024-10-16'),
     description: "Compra de material educativo sobre inversiones",
     value: -300,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180c"
   },
   {
     date: new Date('2024-10-19'),
     description: "Pago de servicios de internet",
     value: -120,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180c"
   },
   {
@@ -1326,7 +1326,7 @@ const finances = [
     date: new Date('2024-10-26'),
     description: "Compra de software de análisis financiero",
     value: -500,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180c"
   },
   {
@@ -1340,7 +1340,7 @@ const finances = [
     date: new Date('2024-11-02'),
     description: "Pago de transporte para reuniones",
     value: -80,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180c"
   },
   {
@@ -1354,7 +1354,7 @@ const finances = [
     date: new Date('2024-11-09'),
     description: "Pago de electricidad",
     value: -100,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180c"
   },
   {
@@ -1368,14 +1368,14 @@ const finances = [
     date: new Date('2024-11-16'),
     description: "Compra de equipo para videoconferencias",
     value: -350,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180c"
   },
   {
     date: new Date('2024-11-19'),
     description: "Pago de seguro médico",
     value: -200,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180c"
   },
   {
@@ -1389,7 +1389,7 @@ const finances = [
     date: new Date('2024-11-25'),
     description: "Compra de equipo de oficina",
     value: -400,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180c"
   },
   {
@@ -1403,7 +1403,7 @@ const finances = [
     date: new Date('2024-11-30'),
     description: "Pago de reparación de vehículo",
     value: -300,
-    active: true,
+    active: false,
     user: "6732c868ec77ef636435180c"
   },
   {

@@ -1,12 +1,12 @@
 import joi from "joi-oid"
-import { ERROR_ALPHANUM, ERROR_BOOLEAN, ERROR_EMAIL, ERROR_MAX, ERROR_MIN, ERROR_NUMBER, ERROR_REQUIRED, ERROR_STRING, ERROR_EMPTY } from "../../utils/msg-Joi.js"
+import {ERROR_FORMAT_STRING,  ERROR_BOOLEAN, ERROR_EMAIL, ERROR_MAX, ERROR_MIN, ERROR_NUMBER, ERROR_REQUIRED, ERROR_STRING, ERROR_EMPTY, ERROR_POSITIVE } from "../../utils/msg-Joi.js"
 
 const schema = joi.object({
-    name: joi.string().required().alphanum().messages({
+    name: joi.string().required().pattern(/^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s-]+$/).messages({
         'string.base':ERROR_STRING,
         "string.empty":ERROR_EMPTY,
         'any.required':ERROR_REQUIRED,
-        'string.alphanum': ERROR_ALPHANUM
+        'string.pattern.base': ERROR_FORMAT_STRING
     }),
     mail: joi.string().required().email().messages({
         'string.base':ERROR_STRING,
@@ -26,16 +26,18 @@ const schema = joi.object({
         'string.empty': ERROR_EMPTY,
         'any.required': ERROR_REQUIRED
       }),
-    phone: joi.number().integer().min(1000000000).max(9999999999).required().messages({
+    phone: joi.number().integer().positive().min(1000000000).max(9999999999).required().messages({
         'number.base': ERROR_NUMBER,
+        'number.positive': ERROR_POSITIVE,
         'number.min': ERROR_MIN(1000000000),
         'number.max': ERROR_MAX(9999999999),
         'any.required': ERROR_REQUIRED
       }),    
-    password: joi.string().required().messages({
+    password: joi.string().required().pattern(/^[A-Za-zÁÉÍÓÚáéíóúÑñ0-9]+$/).messages({
         'string.base': ERROR_STRING,
         'string.empty': ERROR_EMPTY,
-        'any.required': ERROR_REQUIRED
+        'any.required': ERROR_REQUIRED,
+        'string.pattern.base': ERROR_FORMAT_STRING
       }),
     online: joi.boolean().required().messages({
         'boolean.base': ERROR_BOOLEAN,

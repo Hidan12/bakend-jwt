@@ -9,3 +9,5 @@ export const ERROR_MAX = (max)=> (`The largest number accepted in this field is 
 export const ERROR_BOOLEAN = "This field only accepts true or false."
 export const ERROR_DATE = "This field only accepts date type data."
 export const ERROR_FORMAT_ID = "Invalid ObjectId format."
+export const ERROR_FORMAT_STRING = "This field can only contain letters and spaces."
+export const ERROR_POSITIVE = "The number must be positive."

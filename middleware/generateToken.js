@@ -1,10 +1,11 @@
 import jwt from "jsonwebtoken"
 
 export default (req, res, next)=>{
+    
+    const email = req.body.mail 
     const token = jwt.sign(
         {
-            email: req.userDB.email, 
-            _id: req.userDB._id
+            email: email
         },
         process.env.SECRET,
         {
@@ -12,5 +13,7 @@ export default (req, res, next)=>{
         }
     )
     req.token = token
+    console.log(token);
+    
     return next()
 }
