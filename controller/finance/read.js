@@ -5,8 +5,10 @@ const allFinances = async (req, res, next)=>{
     try {
         const query = req.query.search ? {description: {$regex: req.query.search, $options:'i'}}:{}
         const allFinance = await Finance.find(query)
+        
         return res.status(200).json({
-            Finances: allFinance
+            Finances: allFinance,
+            length: allFinance.length
         })
     } catch (error) {
         next(error)
