@@ -2,6 +2,9 @@ import joi from "joi-oid"
 import { ERROR_ALPHANUM, ERROR_EMPTY, ERROR_FORMAT_ID, ERROR_FORMAT_STRING, ERROR_NUMBER, ERROR_POSITIVE, ERROR_STRING } from "../../utils/msg-Joi.js"
 
 const schema = joi.object({
+    _id: joi.objectId().messages({
+        'string.pattern.name': ERROR_FORMAT_ID
+    }),
     name: joi.string().pattern(/^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s-]+$/).messages({
         'string.base':ERROR_STRING,
         'string.pattern.base': ERROR_FORMAT_STRING,

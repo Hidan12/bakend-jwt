@@ -4,7 +4,7 @@ import Property from "../../models/Property.js"
 const allProperties = async (req, res, next) =>{
     try {
         const query = req.query.search ? {name: {$regex: req.query.search, $options:'i'}}:{}
-        const all = await Property.find(query).populate("user", "name, mail").exec
+        const all = await Property.find(query).populate("user", "name mail").exec()
         return res.status(200).json({
             allProperties: all,
             length: all.length

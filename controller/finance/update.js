@@ -4,7 +4,11 @@ import Finance from "../../models/Finance.js"
 
 const updateFinance = async (req, res, next)=>{
     try {
-        const update = await Finance.findOneAndUpdate({_id: req.body._id}, req.body)
+        console.log(req.body);
+        
+        const update = await Finance.findOneAndUpdate({_id: req.body._id}, req.body, { new: true })
+        console.log(update);
+        
         return res.status(200).json({
             update: update
         })

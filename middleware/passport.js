@@ -9,8 +9,11 @@ export default passport.use(
             secretOrKey: process.env.SECRET
         },
         async (jwt_payload, done) =>{
+            
             try {
                 let user = await User.findOne({mail:jwt_payload.email, online:true})
+                console.log("user", user);
+                
                 if (user) {
                     return done(null,user)
                 }else{

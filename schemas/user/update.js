@@ -32,7 +32,7 @@ const schema = joi.object({
         'number.min': ERROR_MIN(1000000000),
         'number.max': ERROR_MAX(9999999999)
       }),    
-    password: joi.string().pattern(/^(?=.[A-Za-z])(?=.\d)(?=.[@$!%?&])[A-Za-z\d@$!%*?&]{8,}$/).messages({
+    password: joi.string().pattern(/^[A-Za-zÁÉÍÓÚáéíóúÑñ0-9]+$/).messages({
       'string.base': ERROR_STRING,
       'string.empty': ERROR_EMPTY,
       'any.required': ERROR_REQUIRED,
