@@ -7,7 +7,7 @@ const schema = joi.object({
         'date.empty': ERROR_EMPTY,
         'any.required': ERROR_REQUIRED
       }),
-    description: joi.string().required().pattern(/^[a-zA-Z\s]+$/).messages({
+    description: joi.string().required().pattern(/^[a-zA-ZáéíóúÁÉÍÓÚñÑ0-9\s-]+$/).messages({
         'string.base':ERROR_STRING,
         'string.pattern.base': ERROR_FORMAT_STRING,
         "string.empty":ERROR_EMPTY,

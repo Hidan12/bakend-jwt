@@ -5,7 +5,7 @@ const schema = joi.object({
     _id: joi.objectId().messages({
         'string.pattern.name': ERROR_FORMAT_ID
     }),
-    name: joi.string().pattern(/^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s-]+$/).messages({
+    name: joi.string().pattern(/^[a-zA-ZáéíóúÁÉÍÓÚñÑ0-9\s-]+$/).messages({
         'string.base':ERROR_STRING,
         'string.pattern.base': ERROR_FORMAT_STRING,
         "string.empty":ERROR_EMPTY,
